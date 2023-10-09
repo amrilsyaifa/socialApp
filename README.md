@@ -80,11 +80,11 @@ To learn more about React Native, take a look at the following resources:
 
 # Answer
 
+## A:
+
 1. If we click the more button, does it go straight to post details or displays all text on the feedscreen (like collapsible)
 2. should we implement VirtualizedList + infinite scroll? i think in feedscreen we have a lot off data
 3. i think we need to handle multiple image list let say we have 10 image so we need to fetch image 1 by 1. or we need to limit maximum image let say 3. what do you think
-
-## A:
 
 ## C1:
 
