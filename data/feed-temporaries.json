@@ -1,0 +1,66 @@
+{
+  "feeds": [
+    {
+      "id": 1,
+      "profile": {
+        "avatar": "https://picsum.photos/200",
+        "name": "Usup Suparma"
+      },
+      "created_at": "Mar 27, 2023",
+      "images": ["https://picsum.photos/200"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum.",
+      "comments": [
+        {
+          "profile": {
+            "avatar": "https://picsum.photos/200",
+            "name": "Usup Suparma"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci,"
+        },
+        {
+          "profile": {
+            "avatar": "https://picsum.photos/200",
+            "name": "Usup Suparma"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci,"
+        }
+      ],
+      "total_down_vote": 2,
+      "total_up_vote": 2
+    },
+    {
+      "id": 2,
+      "profile": {
+        "avatar": "https://picsum.photos/200",
+        "name": "Usup Suparma"
+      },
+      "created_at": "Mar 27, 2023",
+      "images": ["https://picsum.photos/200"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum.",
+      "comments": [],
+      "total_down_vote": 0,
+      "total_up_vote": 0
+    },
+    {
+      "id": 3,
+      "profile": {
+        "avatar": "https://picsum.photos/200",
+        "name": "Usup Suparma"
+      },
+      "created_at": "Mar 27, 2023",
+      "images": ["https://picsum.photos/200"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum.",
+      "comments": [
+        {
+          "profile": {
+            "avatar": "https://picsum.photos/200",
+            "name": "Usup Suparma"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus in ipsum ac dictum. Integer et nunc ut tellus tinci,"
+        }
+      ],
+      "total_down_vote": 1,
+      "total_up_vote": 1
+    }
+  ]
+}

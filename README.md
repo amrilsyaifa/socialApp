@@ -2,7 +2,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -77,3 +77,56 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# Answer
+
+1. If we click the more button, does it go straight to post details or displays all text on the feedscreen (like collapsible)
+2. should we implement VirtualizedList + infinite scroll? i think in feedscreen we have a lot off data
+3. i think we need to handle multiple image list let say we have 10 image so we need to fetch image 1 by 1. or we need to limit maximum image let say 3. what do you think
+
+## A:
+
+## C1:
+
+### Data Structure:
+
+```
+1. User Database: Maintain a database containing user profiles with information such as user ID, name, profile picture, friend list, and a list of communities each user is a part of.
+
+2. Community Database: Create a database that stores information about communities, including community ID, members, topics discussed, and other relevant details.
+
+3. Connection Graph: Build a connection graph that connects users to other users they are friends with or have some form of connection. This can be implemented using a graph data structure where nodes represent users, and edges represent connections between users.
+```
+
+### Algorithm for Recommendations:
+
+```
+To suggest people users might know efficiently, consider the following approaches:
+
+1. Collaborative Filtering: Utilize collaborative filtering techniques to recommend people based on the connections and communities of similar users. You can use matrix factorization or item-based collaborative filtering.
+
+2. Common Communities: Suggest users who are part of the same communities as the user or have joined communities with similar interests. You can calculate community similarity based on community topics and members.
+
+3. Graph Analysis: Explore the connection graph to suggest people who are a few degrees away from the user in the social network. You can use algorithms like breadth-first search or depth-first search to traverse the graph efficiently.
+```
+
+### Testing the Feature:
+
+```
+1. A/B Testing: Implement A/B testing by randomly assigning users to two groups: one with the "people you might know" feature enabled and one with it disabled. Compare user engagement, click-through rates, and friend requests received to evaluate the feature's impact.
+
+2. Metrics and Analytics: Track metrics such as the click-through rate, user engagement, and the number of new connections made through the feature to assess its effectiveness.
+
+3. User Feedback: Encourage users to provide feedback on the feature through in-app surveys or feedback forms to gather qualitative insights.
+
+4. Load Testing: Ensure that the feature can handle a large number of users and communities by conducting load testing to simulate peak usage scenarios.
+
+5. Privacy and Security Testing: Thoroughly test the feature to ensure that user data is handled securely and that there are no privacy breaches.
+```
+
+## C2:
+
+```
+1. i think we need to create database to mapping user ex: like hoby, interest, and folower
+2. after that we can query the data. but the problem is the leak data, but we can handle use caching in server like redis
+```
